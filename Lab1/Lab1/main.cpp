@@ -14,23 +14,23 @@ int main() {
 
 	S = 0;
 	TriangleSpace1(a, b, c, S);
-	cout << "\nSpace of your triangle is: " << S << endl;
+	cout << "\nSpace of your triangle (by value) is: " << S << endl;
 	S = 0;
 	TriangleSpace2(&a, &b, &c, &S);
-	cout << "Space of your triangle (with pointers) is: " << S << endl;
+	cout << "Space of your triangle (by pointers) is: " << S << endl;
 	S = 0;
 	TriangleSpace3(a, b, c, S);
-	cout << "Space of your triangle (with links) is: " << S << endl;
+	cout << "Space of your triangle (by reference) is: " << S << endl;
 
 	cout << "\nWhen parameters in functions are constant:" << endl;
 	S = 0;
 	TriangleSpace4(a, b, c, S);
-	cout << "Space of your triangle is: " << S << endl;
+	cout << "Space of your triangle (by value) is: " << S << endl;
 	S = 0;
 	TriangleSpace5(&a, &b, &c, &S);
-	cout << "Space of your triangle (with pointers) is: " << S << endl;
+	cout << "Space of your triangle (by pointers) is: " << S << endl;
 	S = 0;
 	TriangleSpace6(a, b, c, S);
-	cout << "Space of your triangle (with links) is: " << S << endl;
+	cout << "Space of your triangle (by reference) is: " << S << endl;
 	return 0;
 }
