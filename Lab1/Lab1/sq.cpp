@@ -1,37 +1,32 @@
 #include <iostream>
 #include <cmath>
 
-static double TriangleSpace1(double a, double b, double c) {
-	double S;
+static void TriangleSpace1(double a, double b, double c, double S) {
 	S = (a + b + c) / 2;
 	S = sqrt(S * (S - a) * (S - b) * (S - c));
-	return S;
 }
 
-static double TriangleSpace2(double *a, double *b, double *c) {
-	double S;
-	S = (*a + *b + *c) / 2;
-	S = sqrt(S * (S - *a) * (S - *b) * (S - *c));
-	return S;
+static void TriangleSpace2(double* a, double* b, double* c, double* S) {
+	*S = (*a + *b + *c) / 2;
+	*S = sqrt(*S * (*S - *a) * (*S - *b) * (*S - *c));
 }
 
-static double TriangleSpace22(const double* a, const double* b, const double* c) {
-	double S;
-	S = (*a + *b + *c) / 2;
-	S = sqrt(S * (S - *a) * (S - *b) * (S - *c));
-	return S;
-}
-
-static double TriangleSpace3(double &a, double &b, double &c) {
-	double S;
+static void TriangleSpace3(double& a, double& b, double& c, double& S) {
 	S = (a + b + c) / 2;
 	S = sqrt(S * (S - a) * (S - b) * (S - c));
-	return S;
 }
 
-static double TriangleSpace33(const double& a, const double& b, const double& c) {
-	double S;
+static void TriangleSpace4(const double a, const double b, const double c, double S) {
 	S = (a + b + c) / 2;
 	S = sqrt(S * (S - a) * (S - b) * (S - c));
-	return S;
+}
+
+static void TriangleSpace5(const double* a, const double* b, const double* c, double* S) {
+	*S = (*a + *b + *c) / 2;
+	*S = sqrt(*S * (*S - *a) * (*S - *b) * (*S - *c));
+}
+
+static void TriangleSpace6(const double& a, const double& b, const double& c, double& S) {
+	S = (a + b + c) / 2;
+	S = sqrt(S * (S - a) * (S - b) * (S - c));
 }

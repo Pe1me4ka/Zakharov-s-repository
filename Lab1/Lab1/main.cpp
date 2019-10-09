@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	double a, b, c;
+	double a, b, c, S;
 	cout << "input a: ";
 	cin >> a;
 	cout << "input b: ";
@@ -12,14 +12,25 @@ int main() {
 	cout << "input c: ";
 	cin >> c;
 
-	cout << "\nSpace of your triangle is: " << TriangleSpace1(a, b, c) << endl;
-	cout << "Space of your triangle (with pointers) is: " << TriangleSpace2(&a, &b, &c) << endl;
-	cout << "Space of your triangle (with links) is: " << TriangleSpace3(a, b, c) << endl;
+	S = 0;
+	TriangleSpace1(a, b, c, S);
+	cout << "\nSpace of your triangle is: " << S << endl;
+	S = 0;
+	TriangleSpace2(&a, &b, &c, &S);
+	cout << "Space of your triangle (with pointers) is: " << S << endl;
+	S = 0;
+	TriangleSpace3(a, b, c, S);
+	cout << "Space of your triangle (with links) is: " << S << endl;
 
-	cout << "\nWhen a, b and c are const:" << endl;
-	const double x = a, y = b, z = c;
-	cout << "Space of your triangle is: " << TriangleSpace1(x, y, z) << endl;
-	cout << "Space of your triangle (with pointers) is: " << TriangleSpace22(&x, &y, &z) << endl;
-	cout << "Space of your triangle (with links) is: " << TriangleSpace33(x, y, z) << endl;
+	cout << "\nWhen parameters in functions are constant:" << endl;
+	S = 0;
+	TriangleSpace4(a, b, c, S);
+	cout << "Space of your triangle is: " << S << endl;
+	S = 0;
+	TriangleSpace5(&a, &b, &c, &S);
+	cout << "Space of your triangle (with pointers) is: " << S << endl;
+	S = 0;
+	TriangleSpace6(a, b, c, S);
+	cout << "Space of your triangle (with links) is: " << S << endl;
 	return 0;
 }
