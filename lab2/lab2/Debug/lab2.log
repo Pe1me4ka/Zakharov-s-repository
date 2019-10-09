@@ -1,0 +1,4 @@
+﻿  lab2.cpp
+F:\GitHub\Zakharov-s-repository\lab2\lab2\lab2.cpp(13,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+F:\GitHub\Zakharov-s-repository\lab2\lab2\lab2.cpp(69,27): warning C4244:  +=: преобразование "double" в "int", возможна потеря данных
+  lab2.vcxproj -> F:\GitHub\Zakharov-s-repository\lab2\Debug\lab2.exe
