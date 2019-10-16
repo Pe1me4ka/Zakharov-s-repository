@@ -1,0 +1,7 @@
+﻿  Lab3.cpp
+F:\GitHub\Zakharov-s-repository\Lab3\Lab3\Lab3.cpp(13,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Replicas.cpp
+  Weapon.cpp
+  Создание кода...
+F:\GitHub\Zakharov-s-repository\Lab3\Lab3\Lab3.cpp(60,4): warning C4551:  в вызове функции отсутствует список аргументов
+  Lab3.vcxproj -> F:\GitHub\Zakharov-s-repository\Lab3\Debug\Lab3.exe
