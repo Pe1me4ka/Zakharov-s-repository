@@ -18,18 +18,12 @@
     <ClCompile Include="Lab3.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Weapon.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Replicas.cpp">
+    <ClCompile Include="Home.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Weapon.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Replicas.h">
+    <ClInclude Include="Home.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

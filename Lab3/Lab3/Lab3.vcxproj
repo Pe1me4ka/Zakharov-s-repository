@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{365A8B20-89C7-4743-85E6-C02D22A77446}</ProjectGuid>
+    <ProjectGuid>{A32C7CF4-8294-4A37-9C9B-67A98B6096AF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Lab3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -151,13 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Home.cpp" />
     <ClCompile Include="Lab3.cpp" />
-    <ClCompile Include="Replicas.cpp" />
-    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Replicas.h" />
-    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Home.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
