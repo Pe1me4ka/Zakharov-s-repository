@@ -1,41 +1,78 @@
 ﻿#include <iostream>
-#include <forward_list>
+#include "forward_list_2_0.h"
 
 using namespace std;
 
-//void push_front();	//добавить элемент в начало
-void push_back();		//добавить элемент в конец
-//void pop_front();		//удалить элемент из начала
-void pop_back();		//удалить элемент из конца
-void pop_element();		//удалить i-элемент списка
-void isEmpty();			//проверка, пустой ли список
-void getSize();			//получить размер списка
-
-template <typename T>
-void printList(forward_list<T> set)
-{
-	for (int n : set)
-		cout << n << "\t";
-	cout << endl;
-}
-
 int main()
 {
-	forward_list<int> num{ 1, 2, 3 };
-	int i = 0;
-	//push_front()
-	num.push_front(2);
-	printList(num);
-	//push_back()
-	auto iter = num.begin();
-	while (iter != num.end())
-	{
-		i++;
-		++iter;
+	//Examples:
+	cout << "Examples:" << endl;
+	char arr[25] = "Hello world!!!";
+	for (int i = 0; i < 4; i++) {
+		cout << arr[i] << endl;
 	}
-	int N;
-	cin >> N;
-	num.resize(i + 1, N);
-	printList(num);
+	int len = sizeof(arr) / sizeof(arr[0]);
+	cout << len << endl;
+	cout << endl;
+
+	int* arr2 = new int[4]{1, 3, 2, 4};
+	cout << arr2 << endl;
+	cout << *arr2 + 2 << endl;
+	cout << *(arr2 + 2) << endl;
+	delete[] arr2;
+	cout << endl;
+
+	int arr4[4] = { 0, 2, 4, 6 };
+	int *arr3 = arr4;
+	cout << *(1+ arr3) << endl;
+	cout << endl;
+
+	//Tests:
+	cout << "Tests" << endl;
+	forward_list_2_0 arra(4, arr4);
+	cout << "GetList test:" << endl;
+	arra.GetList();
+	cout << endl;
+
+	cout << "push_front test:" << endl;
+	arra.push_front(15);
+	arra.GetList();
+	cout << endl;
+
+	cout << "push_back test:" << endl;
+	arra.push_back(15);
+	arra.GetList();
+	cout << endl;
+
+	cout << "pop_front test:" << endl;
+	arra.pop_front();
+	arra.GetList();
+	cout << endl;
+
+	cout << "pop_back test:" << endl;
+	arra.pop_back();
+	arra.GetList();
+	cout << endl;
+
+	cout << "pop_element test:" << endl;
+	arra.pop_element(3);
+	arra.GetList();
+	arra.pop_element(10);
+	arra.GetList();
+	cout << endl;
+
+	cout << "isEmpty test:" << endl;
+	if (arra.isEmpty()) cout << "List is empty" << endl;
+	else cout << "List isn't empty" << endl;
+	cout << endl;
+
+	cout << "getSize test:" << endl;
+	cout << arra.getSize() << endl;
+	cout << endl;
+
+	arra.Clear();
+	cout << "(After clear)" << endl;
+	if (arra.isEmpty()) cout << "List is empty" << endl;
+	else cout << "List isn't empty" << endl;
 	return 0;
 }

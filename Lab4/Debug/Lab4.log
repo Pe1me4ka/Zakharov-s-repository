@@ -1,31 +1,33 @@
 ﻿  Calculator.cpp
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(18,23): error C2061: синтаксическая ошибка: идентификатор "Binary"
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(20,7): error C2065: nn1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(20,19): error C2065: nn2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(22,3): error C2065: Binary: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(22,10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "n1"
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(22,10): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(22,15): error C2065: nn1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(23,3): error C2065: Binary: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(23,10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "n2"
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(23,10): error C2065: n2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(23,15): error C2065: nn2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(24,7): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(24,23): error C2065: n2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(25,4): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(25,9): error C2065: nn2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(26,4): error C2065: n2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(26,9): error C2065: nn1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(29,17): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(30,17): error C2065: n2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(31,15): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(32,15): error C2065: n2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(33,16): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(34,16): error C2065: n2: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(38,1): error C3536: iter1: не может использоваться до инициализации
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(39,1): error C3536: iter2: не может использоваться до инициализации
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(40,1): error C2100: недопустимое косвенное обращение
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(41,1): error C3536: begin1: не может использоваться до инициализации
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(41,1): error C3536: begin2: не может использоваться до инициализации
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(43,11): error C2065: n1: необъявленный идентификатор
-C:\Users\Tea Drinker\Documents\VS labs\Lab4\Calculator.h(45,11): error C2065: n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(18,23): error C2061:  синтаксическая ошибка: идентификатор "Binary"
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(20,7): error C2065:  nn1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(20,19): error C2065:  nn2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(22,3): error C2065:  Binary: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(22,10): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "n1"
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(22,10): error C2065:  n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(22,15): error C2065:  nn1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(23,3): error C2065:  Binary: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(23,10): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "n2"
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(23,10): error C2065:  n2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(23,15): error C2065:  nn2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(24,7): error C2065:  n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(24,23): error C2065:  n2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(25,4): error C2065:  n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(25,9): error C2065:  nn2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(26,4): error C2065:  n2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(26,9): error C2065:  nn1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(29,17): error C2065:  n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(30,17): error C2065:  n2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(31,15): error C2065:  n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(32,15): error C2065:  n2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(33,16): error C2065:  n1: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(34,16): error C2065:  n2: необъявленный идентификатор
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(38,1): error C3536:  iter1: не может использоваться до инициализации
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(39,1): error C3536:  iter2: не может использоваться до инициализации
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(40,1): error C2100:  недопустимое косвенное обращение
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(41,1): error C3536:  begin1: не может использоваться до инициализации
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(41,1): error C3536:  begin2: не может использоваться до инициализации
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(43,11): error C2065:  n1: необъявленный идентификатор
+  Lab4.cpp
+  Создание кода...
+F:\GitHub\Zakharov-s-repository\Lab4\Calculator.h(45,11): error C2065:  n1: необъявленный идентификатор
