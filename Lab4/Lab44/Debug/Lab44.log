@@ -1,0 +1,5 @@
+﻿  Lab44.cpp
+C:\Users\Pe1me4ka\source\repos\Lab44\Lab44\calculator.h(52,1): warning C4244:  +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Pe1me4ka\source\repos\Lab44\Lab44\calculator.h(116,1): warning C4244:  +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Pe1me4ka\source\repos\Lab44\Lab44\calculator.h(200,1): warning C4244:  +=: преобразование "double" в "int", возможна потеря данных
+  Lab44.vcxproj -> C:\Users\Pe1me4ka\source\repos\Lab44\Debug\Lab44.exe
